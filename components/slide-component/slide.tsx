@@ -18,7 +18,6 @@ export default function SlidingComponent() {
       spaceBetween={30}
       slidesPerView={5}
       navigation
-      pagination={{ clickable: true }}
       autoplay={{ delay: 2500 }}
       loop={true}
     >
