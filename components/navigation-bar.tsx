@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function NavigationBar() {
       return <>
       
-            <div className="navigation-bar fixed z-40 flex items-center bg-[#ff88390e] gap-10 h-[80px] w-full">
+            <div className="navigation-bar border-b-1 border-[#ffffff28] fixed z-40 flex items-center bg-[#ff88390e] gap-10 h-[80px] w-full">
                   <div className="sub-navigation text-[18px] pl-[70px] flex gap-8 text-[white]">
                         <Link href="/">Home</Link>
                         <Link href="/">About</Link>

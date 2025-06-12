@@ -15,9 +15,9 @@ export default function SlidingComponent() {
 
 <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={30}
+      spaceBetween={10}
       slidesPerView={5}
-      navigation
+      
       autoplay={{ delay: 2500 }}
       loop={true}
     >
