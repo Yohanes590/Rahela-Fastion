@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function CardComponent() {
       return <>
 
-            <div className="card-container bg-[linear-gradient(to_bottom,#252120_0px,#252120_730px,transparent_400px)] w-full text-[white] h-screen">
+            <div className="card-container bg-[linear-gradient(to_bottom,#252120_0px,#252120_730px,transparent_400px)] w-full text-[white] h-auto">
                   <center>
                   <div className="card-content-headers w-[650px] pt-[50px] text-center">
                         

@@ -5,6 +5,8 @@ import SocialMediaLinks from "@/components/social-media-links"
 import AboutComponent from "@/components/about-component"
 import CardComponent from "@/components/card-component"
 import WaterMark from "@/components/water-mark"
+import ShopSection from "@/components/shop-now"
+import ContactForm from "@/components/contact-form"
 export default function Home() {
   return <>
     <NavigationBar />
@@ -12,6 +14,8 @@ export default function Home() {
     <SocialMediaLinks />
     <AboutComponent />
     <CardComponent />
-    <WaterMark/>
+    <WaterMark />
+    <ShopSection />
+    <ContactForm/>
   </>
 }

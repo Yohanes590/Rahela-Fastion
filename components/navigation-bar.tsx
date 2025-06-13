@@ -23,11 +23,7 @@ export default function NavigationBar() {
       },[])
 
       return <>
-            
-           
-      
-            <div className="navigation-bar border-b-1 border-[#ffffff28]  absolute z-40 flex justify-between items-center bg-[#ff88390e] gap-10 h-[80px] w-full">
-       
+            <div className="navigation-bar   absolute z-40 flex justify-between items-center bg-[#0000001c] gap-10 h-[80px] w-full">
                   <div className="logo-container">
                     <div className="navigation-log  overflow-hidden pl-[70px] ">
                         <Image src="/assets/rehela-transparent-white-logo.png" width={200} height={100} alt="Navigation Bar Logo"/>
@@ -37,8 +33,6 @@ export default function NavigationBar() {
                         <CiMenuFries size={30}/>
                   </div>
             </div>
-
-            
             { /* hidden nav bar */}
            <div className="navigation-bar-hidden-animation border-b-1 border-[#ffffff28]  fixed mt-[-80px] z-40 flex justify-between transition-all duration-700 items-center backdrop-blur-2xl bg-[#0000009a] gap-10 h-[80px] w-full">
        

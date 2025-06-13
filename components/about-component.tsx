@@ -2,7 +2,7 @@
 import Image from "next/image"
 export default function AboutComponent() {
       return <>
-            <div className="h-screen bg-[#F8F4F3] flex justify-between pl-[100px] items-center">
+            <div className="h-auto bg-[#F8F4F3] flex flex-wrap justify-around items-center">
 
                   <div className="about-message-container w-[800px]">
 
@@ -14,13 +14,13 @@ export default function AboutComponent() {
                            promotes sustainable and ethical fashion practices. It aims to make fashion accessible
                            while bridging Ethiopia with Africa.</p>
                         <button className="mt-[25px] w-[350px] text-white h-[45px] rounded-[10px] cursor-pointer bg-[#CD5601]">Explore more</button>
-                        <div className="about-water-mark mt-[100px] cursor-default text-[60px] font-bold text-[#83040436]">
+                        <div className="about-water-mark mt-[30px] cursor-default text-[60px] font-bold text-[#83040436]">
                               FASION DESIGNER
                         </div>
                   </div>
 
-                  <div className="photo-component pr-[100px]">
-                        <Image src="/assets/asset-one-about.png" alt="" width={350} height={100} className="w-[350px]"/>
+                  <div className="photo-component">
+                        <Image src="/assets/asset-one-about.png" alt="" width={300} height={100} className="w-[300px]"/>
                   </div>
 
 

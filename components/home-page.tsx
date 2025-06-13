@@ -4,7 +4,7 @@ import SlidingComponent from "./slide-component/slide"
 export default function HomePage() {
       return <>
             <MenuComponent/>
-            <div className="absolute z-30 h-[750px] w-full flex justify-center items-center bg-[#00000079]">
+            <div className="absolute z-30 h-[750px] w-full  flex justify-center items-center bg-[#00000079]">
                   <div className="box-center w-[800px] flex text-center justify-center items-center rounded-[10px] h-[400px] backdrop-blur-[4px] bg-[#00000044]">
                         <div className="box-header-section">
                               <h1 className="text-[40px] w-[550px] text-[white]" >Elevate Your Everyday Style with African Elegance</h1>

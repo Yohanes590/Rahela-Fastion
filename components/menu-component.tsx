@@ -9,7 +9,7 @@ export default function MenuComponent() {
       return <>
                 <div className="fixed-menu-bar duration-900 transition-all overflow-hidden fixed z-50 right-0 h-[100%] w-[0%] bg-[#00000085]">
 
-                  <div className="sub-menu-element duration-900 transition-all absolute right-0 bg-[white] w-[400px] h-screen">
+                  <div className="sub-menu-element duration-900 transition-all absolute right-0 bg-[white] w-[450px] h-screen">
                         <div onClick={closeMenu} className="closing-section absolute right-0 cursor-pointer pt-[20px] pr-[20px] text-[#555555]">
                         <IoCloseOutline size={40} />
                         </div>
