@@ -17,3 +17,35 @@ body{
   width: 1000px;
   object-fit: cover;
 }
+
+.shop-section{
+  background-image: url('/assets/back-ground.jpg');
+  color:white;
+  object-fit: cover;
+}
+.gird-part{
+  margin-top: 30px;
+}
+
+.gird-part img{
+  cursor: pointer;
+  z-index: -1;
+  filter: brightness(50%);
+  transition:all 800ms;
+}
+
+.gird-part img:hover{
+  filter: brightness(100%);
+}
+.each-card{
+  cursor: pointer;
+}
+
+.each-card .img img{
+  filter: brightness(50%);
+  transition:all 800ms;
+}
+.each-card:hover img{
+  filter: brightness(100%);
+  height:500px;
+}

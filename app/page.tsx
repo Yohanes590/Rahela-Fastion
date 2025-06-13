@@ -8,6 +8,7 @@ import WaterMark from "@/components/water-mark"
 import ShopSection from "@/components/shop-now"
 import LastCardFunction from "@/components/last-card"
 import ContactForm from "@/components/contact-form"
+import PhotoGrid from "@/components/photo-component"
 export default function Home() {
   return <>
     <NavigationBar />
@@ -17,6 +18,7 @@ export default function Home() {
     <CardComponent />
     <WaterMark />
     <ShopSection />
+    <PhotoGrid/>
     <LastCardFunction />
     <ContactForm/>
   </>

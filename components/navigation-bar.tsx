@@ -7,7 +7,7 @@ export default function NavigationBar() {
 
       const openMenuBar = () => {
             const MenuElement = document.querySelector(".fixed-menu-bar") as HTMLElement
-            MenuElement.style.width="100%"
+            MenuElement.style.width="27%"
 }
 
       useEffect(() => {
@@ -23,9 +23,9 @@ export default function NavigationBar() {
       },[])
 
       return <>
-            <div className="navigation-bar   absolute z-40 flex justify-between items-center bg-[#0000001c] gap-10 h-[80px] w-full">
+            <div className="navigation-bar absolute z-40 flex justify-between items-center bg-[#0000001c] gap-10 h-[80px] w-full">
                   <div className="logo-container">
-                    <div className="navigation-log  overflow-hidden pl-[70px] ">
+                    <div className="navigation-log  overflow-hidden pl-[70px] "> 
                         <Image src="/assets/rehela-transparent-white-logo.png" width={200} height={100} alt="Navigation Bar Logo"/>
                   </div>
                   </div>
