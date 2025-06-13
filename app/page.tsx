@@ -7,6 +7,7 @@ import CardComponent from "@/components/card-component"
 import WaterMark from "@/components/water-mark"
 import ShopSection from "@/components/shop-now"
 import LastCardFunction from "@/components/last-card"
+import ContactForm from "@/components/contact-form"
 export default function Home() {
   return <>
     <NavigationBar />
@@ -16,6 +17,7 @@ export default function Home() {
     <CardComponent />
     <WaterMark />
     <ShopSection />
-    <LastCardFunction/>
+    <LastCardFunction />
+    <ContactForm/>
   </>
 }
