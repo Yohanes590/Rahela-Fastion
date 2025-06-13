@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import './fonts.css'
 export const metadata: Metadata = {
   title: "Rahela Fashion Design",
   description: "Authentic Afrocentric fashion blending Ethiopian heritage with modern style.",
