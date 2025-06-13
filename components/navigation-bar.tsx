@@ -7,7 +7,7 @@ export default function NavigationBar() {
 
       const openMenuBar = () => {
             const MenuElement = document.querySelector(".fixed-menu-bar") as HTMLElement
-            MenuElement.style.display="block"
+            MenuElement.style.width="100%"
 }
 
       useEffect(() => {
@@ -47,7 +47,7 @@ export default function NavigationBar() {
                         <Image src="/assets/rehela-transparent-white-logo.png" width={200} height={100} alt="Navigation Bar Logo"/>
                   </div>
                   </div>
-                  <div className="right-button cursor-pointer text-white font-bold pr-[50px]">
+                  <div onClick={openMenuBar} className="right-button cursor-pointer text-white font-bold pr-[50px]">
                         <CiMenuFries size={30}/>
                   </div>
             </div>
