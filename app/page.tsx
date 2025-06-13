@@ -3,11 +3,13 @@ import NavigationBar from "@/components/navigation-bar"
 import HomePage from "@/components/home-page"
 import SocialMediaLinks from "@/components/social-media-links"
 import AboutComponent from "@/components/about-component"
+import CardComponent from "@/components/card-component"
 export default function Home() {
   return <>
     <NavigationBar />
     <HomePage />
     <SocialMediaLinks />
-    <AboutComponent/>
+    <AboutComponent />
+    <CardComponent/>
   </>
 }
