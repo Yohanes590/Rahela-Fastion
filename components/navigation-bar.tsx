@@ -2,7 +2,13 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useEffect } from "react"
+import { CiMenuFries } from "react-icons/ci";
 export default function NavigationBar() {
+
+      const openMenuBar = () => {
+            const MenuElement = document.querySelector(".fixed-menu-bar") as HTMLElement
+            MenuElement.style.display="block"
+}
 
       useEffect(() => {
             document.addEventListener('scroll', () => {
@@ -17,33 +23,32 @@ export default function NavigationBar() {
       },[])
 
       return <>
+            
+           
       
-            <div className="navigation-bar border-b-1 border-[#ffffff28] absolute z-40 flex items-center bg-[#ff88390e] gap-10 h-[80px] w-full">
-                  <div className="sub-navigation text-[18px] pl-[70px] flex gap-8 text-[white]">
-                        <Link className="transition-all duration-100 hover:text-amber-700" href="/">Home</Link>
-                        <Link className="transition-all duration-100 hover:text-amber-700" href="/">About</Link>
-                        <Link className="transition-all duration-100 hover:text-amber-700" href="/">Service</Link>
-                        <Link className="transition-all duration-100 hover:text-amber-700" href="/">Contact</Link>
+            <div className="navigation-bar border-b-1 border-[#ffffff28]  absolute z-40 flex justify-between items-center bg-[#ff88390e] gap-10 h-[80px] w-full">
+       
+                  <div className="logo-container">
+                    <div className="navigation-log  overflow-hidden pl-[70px] ">
+                        <Image src="/assets/rehela-transparent-white-logo.png" width={200} height={100} alt="Navigation Bar Logo"/>
                   </div>
-                  <div className="logo-container ml-[24%]">
-                    <div className="navigation-log rounded-full overflow-hidden  w-[80px] h-[80px]">
-                        <Image src="/assets/logo.jpg" width={100} height={100} alt="Navigation Bar Logo"/>
                   </div>
+                  <div onClick={openMenuBar} className="right-button cursor-pointer text-white font-bold pr-[50px]">
+                        <CiMenuFries size={30}/>
                   </div>
             </div>
+
             
             { /* hidden nav bar */}
-            <div className="navigation-bar-hidden-animation backdrop-blur-[20px] transition-all duration-600 border-b-1 mt-[-80] border-[#ffffff28] fixed z-40 flex items-center bg-[#1818189c] gap-10 h-[80px] w-full">
-                  <div className="sub-navigation text-[18px] pl-[70px] flex gap-8 text-[white]">
-                        <Link className="transition-all duration-100 hover:text-[#D86F55]" href="/">Home</Link>
-                        <Link className="transition-all duration-100 hover:text-[#D86F55]" href="/">About</Link>
-                        <Link className="transition-all duration-100 hover:text-[#D86F55]" href="/">Service</Link>
-                        <Link className="transition-all duration-100 hover:text-[#D86F55]" href="/">Contact</Link>
+           <div className="navigation-bar-hidden-animation border-b-1 border-[#ffffff28]  fixed mt-[-80px] z-40 flex justify-between transition-all duration-700 items-center backdrop-blur-2xl bg-[#0000009a] gap-10 h-[80px] w-full">
+       
+                  <div className="logo-container">
+                    <div className="navigation-log  overflow-hidden pl-[70px] ">
+                        <Image src="/assets/rehela-transparent-white-logo.png" width={200} height={100} alt="Navigation Bar Logo"/>
                   </div>
-                  <div className="logo-container ml-[24%]">
-                    <div className="navigation-log rounded-full overflow-hidden  w-[80px] h-[80px]">
-                        <Image src="/assets/logo.jpg" width={100} height={100} alt="Navigation Bar Logo"/>
                   </div>
+                  <div className="right-button cursor-pointer text-white font-bold pr-[50px]">
+                        <CiMenuFries size={30}/>
                   </div>
             </div>
             

@@ -4,12 +4,14 @@ import HomePage from "@/components/home-page"
 import SocialMediaLinks from "@/components/social-media-links"
 import AboutComponent from "@/components/about-component"
 import CardComponent from "@/components/card-component"
+import WaterMark from "@/components/water-mark"
 export default function Home() {
   return <>
     <NavigationBar />
     <HomePage />
     <SocialMediaLinks />
     <AboutComponent />
-    <CardComponent/>
+    <CardComponent />
+    <WaterMark/>
   </>
 }
