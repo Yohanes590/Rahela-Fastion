@@ -7,7 +7,9 @@ export default function NavigationBar() {
 
       const openMenuBar = () => {
             const MenuElement = document.querySelector(".fixed-menu-bar") as HTMLElement
-            MenuElement.style.width="27%"
+            const OpacitySection = document.querySelector(".button-section") as HTMLElement
+            MenuElement.style.width="100%"
+            OpacitySection.style.opacity="1"
 }
 
       useEffect(() => {
