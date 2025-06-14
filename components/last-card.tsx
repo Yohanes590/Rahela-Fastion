@@ -9,7 +9,7 @@ export default function LastCardFunction() {
 
                   <div className="centered-items grid grid-cols-3 justify-center items-center gap-5 ">
 
-                        <div className="each-card-center-item border-l-5 border-amber-200 pt-[20px] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
+                        <div className="each-card-center-item hover:border-l-10 transition-all duration-700 border-l-5 border-amber-200 pt-[20px] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
                               <div className="card-heading-section text-[25px] font-bold">
                                     <h1>Customer Favorite</h1>
                               </div>
@@ -23,7 +23,7 @@ export default function LastCardFunction() {
                         </div>
                         
 
-                        <div className="each-card-center-item pt-[20px] border-l-5 border-amber-200 pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
+                        <div className="each-card-center-item hover:border-l-10 transition-all duration-700 pt-[20px] border-l-5 border-amber-200 pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
                               <div className="card-heading-section text-[25px] font-bold">
                                     <h1>New Arrival</h1>
                               </div>
@@ -39,7 +39,7 @@ export default function LastCardFunction() {
 
 
                         
-                        <div className="each-card-center-item pt-[20px] border-l-5 border-amber-200 pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
+                        <div className="each-card-center-item hover:border-l-10 transition-all duration-700 pt-[20px] border-l-5 border-amber-200 pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
                               <div className="card-heading-section text-[25px] font-bold">
                                     <h1>Limited Stock</h1>
                               </div>
@@ -54,7 +54,7 @@ export default function LastCardFunction() {
                         
 
                         
-                        <div className="each-card-center-item pt-[20px] border-l-5 border-[#ffac706e] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
+                        <div className="each-card-center-item hover:border-l-10 transition-all duration-700 pt-[20px] border-l-5 border-[#ffac706e] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
                               <div className="card-heading-section text-[25px] font-bold">
                                     <h1>Eco-Friendly</h1>
                               </div>
@@ -69,7 +69,7 @@ export default function LastCardFunction() {
                         
 
 
-                                        <div className="each-card-center-item border-l-5 border-[#ffac706e] pt-[20px] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
+                                        <div className="each-card-center-item hover:border-l-10 transition-all duration-700 border-l-5 border-[#ffac706e] pt-[20px] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
                               <div className="card-heading-section text-[25px] font-bold">
                                     <h1>Cultural Heritage</h1>
                               </div>
@@ -83,7 +83,7 @@ export default function LastCardFunction() {
                         </div>
                         
 
-                                        <div className="each-card-center-item border-l-5 border-[#ffac706e] pt-[20px] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
+                                        <div className="each-card-center-item hover:border-l-10 transition-all duration-700 border-l-5 border-[#ffac706e] pt-[20px] pl-[20px] h-[160px] cursor-pointer w-[400px] shadow-[0_0_5px_#e2e2e2] bg-[white]">
                               <div className="card-heading-section text-[25px] font-bold">
                                     <h1>Exclusive discounts</h1>
                               </div>
