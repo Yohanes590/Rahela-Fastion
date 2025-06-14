@@ -14,10 +14,10 @@ export default function ContactForm() {
                            collaboration, or a custom order.</p>
                         </div>
                         <div className="input-form mt-[20px]">
-                              <input type="text"className="h-[50px] text-[black] w-[550px] bg-[#FFA768] pl-[20px] mt-[10px]"  placeholder="Your name" /><br/>
-                              <input type="text"className="h-[50px] text-[black] w-[550px] bg-[#FFA768] pl-[20px] mt-[10px]"  placeholder="Email" /><br/>
-                              <textarea className="h-[200px] text-[black] w-[550px] pt-[10px] bg-[#FFA768] pl-[20px] mt-[10px]" placeholder="Message"></textarea><br/>
-                              <button className="w-[550px] h-[40px] mt-[20xp] duration-300 bg-[#FFA768] cursor-pointer hover:bg-amber-800 hover:text-[white]">Submit</button>
+                              <input type="text"className="h-[50px] text-[black] w-[550px] bg-[#ffa7684d] border-1 border-amber-400 pl-[20px] mt-[10px]"  placeholder="Your name" /><br/>
+                              <input type="email"className="h-[50px] text-[black] w-[550px] bg-[#ffa7684d] pl-[20px] border-1 mt-[10px] border-amber-400"  placeholder="Email" /><br/>
+                              <textarea className="h-[200px] text-[black] w-[550px] pt-[10px] bg-[#ffa7684d] border-1 border-amber-400 pl-[20px] mt-[10px]" placeholder="Message"></textarea><br/>
+                              <button className="w-[550px] h-[40px] mt-[20xp] duration-300 bg-[#ffa7684d] border-1 border-amber-400 cursor-pointer hover:bg-amber-800 hover:text-[white]">Submit</button>
                         </div>
 
                   </div>
@@ -64,7 +64,7 @@ export default function ContactForm() {
                               </div>
                               <div className="mes-contact text-[20px]">
                                     <h2>LinkedIn</h2>
-                                    <p>Contact Rahela</p>
+                                    <p>Rahela LinkedIn</p>
                               </div>
                         </div>
                         
@@ -75,7 +75,7 @@ export default function ContactForm() {
                               </div>
                               <div className="mes-contact text-[20px]">
                                     <h2>Instagram</h2>
-                                    <p>Contact Rahela</p>
+                                    <p> Rahela Instagram</p>
                               </div>
                         </div>
 
