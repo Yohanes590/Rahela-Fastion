@@ -19,7 +19,7 @@ export default function CardComponent() {
 
                   <div className="card-containers text-[black] text-center flex mt-[70px] justify-center gap-5">
                         
-                        <div className="each-card h-[560px] w-[400px] shadow-[0_0_6px_#e7e5e5]  bg-[white] ">
+                        <div className="each-card transition-all duration-700 border-2 hover:border-[#FFA883] h-[560px] w-[400px] shadow-[0_0_6px_#e7e5e5]  bg-[white] ">
                               <div className="img overflow-hidden h-[380px]">
                                     <Image src="/assets/card1.jpg" alt="about-image" width={400} height={200} className="h-[380px] object-cover "/>
                               </div>
