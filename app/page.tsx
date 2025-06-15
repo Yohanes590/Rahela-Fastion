@@ -4,11 +4,8 @@ import HomePage from "@/components/home-page"
 import SocialMediaLinks from "@/components/social-media-links"
 import AboutComponent from "@/components/about-component"
 import CardComponent from "@/components/card-component"
-import WaterMark from "@/components/water-mark"
-import ShopSection from "@/components/shop-now"
-import LastCardFunction from "@/components/last-card"
 import ContactForm from "@/components/contact-form"
-import PhotoGrid from "@/components/photo-component"
+import MiddelSection from "@/components/middel-section"
 import { useEffect } from "react"
 export default function Home() {
   
@@ -28,11 +25,8 @@ export default function Home() {
     <HomePage />
     <SocialMediaLinks />
     <AboutComponent />
-    <CardComponent />
-    <WaterMark />
-    <ShopSection />
-    <PhotoGrid/>
-    <LastCardFunction />
+      <CardComponent />
+      <MiddelSection/>
     <ContactForm/>
     </div>
 
