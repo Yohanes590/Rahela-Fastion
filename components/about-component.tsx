@@ -2,26 +2,17 @@
 import Image from "next/image"
 export default function AboutComponent() {
       return <>
-            <div className="h-auto bg-[#F8F4F3] flex flex-wrap justify-around items-center">
+            <div className="h-[700px] w-[100%] bg-[#F5F5F5] flex flex-wrap  justify-around items-center">
 
-                  <div className="about-message-container w-[800px]">
-
-                        <h1 className="text-[45px] text-[#7B3A02]" style={{ fontFamily: 'Acumin Pro' }}>Who we are?</h1>
-                        <h1 className="mt-[10px] font-bold text-[40px]">Inspired by Africa’s rich cultural 
-                            heritage, blending traditional <br/>patterns with modern designs.</h1>
-                        <h3 className="mt-[20px] text-[30px]">Comfortable, everyday wear.</h3>
-                        <p className="mt-[10px] text-[18px]">Rahela offers versatile, earth-toned pieces celebrating African tribes and cultures.The brand
-                           promotes sustainable and ethical fashion practices. It aims to make fashion accessible
-                           while bridging Ethiopia with Africa.</p>
-                        <button className="mt-[25px] transition-all duration-500 hover:bg-[#864737] w-[350px] text-white h-[45px] rounded-[10px] cursor-pointer bg-[#CD5601]">Explore more</button>
-                        <div className="about-water-mark mt-[30px] cursor-default text-[60px] font-bold text-[#83040436]">
-                              FASION DESIGNER
-                        </div>
-                  </div>
-
-                  <div className="photo-component">
-                        <Image src="/assets/asset-one-about.png" alt="" width={300} height={100} className="w-[300px]"/>
-                  </div>
+                  <div className="about-message-container text-center">
+                        <h1 className="text-[50px] text-[#918F8E]">Who we are</h1>
+                        <p className="w-[600px] text-[18px]">Rahela offers versatile, earth-toned pieces celebrating African tribes and
+                        cultures.The brand promotes sustainable and ethical fashion practices.
+                              It aims to make fashion accessible while bridging Ethiopia with Africa.</p>
+                        <center>
+                              <div className="border-2 border-[#3F3C3C] hover:bg-[#3F3C3C] transition-all duration-300 hover:text-[white] flex justify-center items-center mt-[25px] w-[300px] h-[50px]">Explore</div>
+                        </center>
+                        </div> 
 
 
             </div>
