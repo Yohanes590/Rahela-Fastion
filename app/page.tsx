@@ -6,6 +6,7 @@ import AboutComponent from "@/components/about-component"
 import CardComponent from "@/components/card-component"
 import ContactForm from "@/components/contact-form"
 import MiddelSection from "@/components/middel-section"
+import PhotoGrid from "@/components/photo-grid"
 import { useEffect } from "react"
 export default function Home() {
   
@@ -26,7 +27,8 @@ export default function Home() {
     <SocialMediaLinks />
     <AboutComponent />
       <CardComponent />
-      <MiddelSection/>
+      <MiddelSection />
+      <PhotoGrid/>
     <ContactForm/>
     </div>
 

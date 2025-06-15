@@ -27,3 +27,15 @@ body{
   scale: 1.3;
   filter: opacity(100%);
 }
+
+
+.hover-image-section img{
+  scale: 1.3;
+  filter: brightness(80%);
+  transition: all 500ms;
+}
+
+.hover-image-section img:hover{
+  scale: 1.1;
+  filter: brightness(100%);
+}
