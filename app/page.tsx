@@ -9,8 +9,21 @@ import ShopSection from "@/components/shop-now"
 import LastCardFunction from "@/components/last-card"
 import ContactForm from "@/components/contact-form"
 import PhotoGrid from "@/components/photo-component"
+import { useEffect } from "react"
 export default function Home() {
+  
+  useEffect(() => {
+      const FadeAnimation = ()=> {
+      const AllDivElement = document.querySelector(".add-div-element") as HTMLElement
+      AllDivElement.style.opacity="1"
+      }
+    FadeAnimation()
+  },[])
+
+
+
   return <>
+    <div className="add-div-element opacity-0 duration-2000 transition-all">
     <NavigationBar />
     <HomePage />
     <SocialMediaLinks />
@@ -21,5 +34,7 @@ export default function Home() {
     <PhotoGrid/>
     <LastCardFunction />
     <ContactForm/>
+    </div>
+
   </>
 }
